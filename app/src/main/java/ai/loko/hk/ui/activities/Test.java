@@ -14,8 +14,9 @@ import java.util.Random;
 import ai.loko.hk.ui.answers.Engine;
 import ai.loko.hk.ui.data.Which;
 import ai.loko.hk.ui.model.Question;
+import com.dd.processbutton.iml.ActionProcessButton;
 import ai.loko.hk.ui.utils.CustomToast;
-import ai.myfancy.button.iml.ActionProcessButton;
+//import ai.myfancy.button.iml.ActionProcessButton;
 import ui.R;
 
 public class Test extends AppCompatActivity {
@@ -45,7 +46,7 @@ public class Test extends AppCompatActivity {
         b2 = findViewById(R.id.optionBtest);
         c3 = findViewById(R.id.optionCtest);
 
-        wiki = findViewById(R.id.wiki1);
+        //wiki = findViewById(R.id.wiki1);
         google = findViewById(R.id.getanswer1);
         google.setMode(ActionProcessButton.Mode.ENDLESS);
         wiki.setMode(ActionProcessButton.Mode.ENDLESS);

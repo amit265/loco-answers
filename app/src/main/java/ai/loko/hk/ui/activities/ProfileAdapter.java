@@ -69,7 +69,7 @@ class ProfileAdapter extends RecyclerView.Adapter<ProfileAdapter.MyViewHolder> {
             profileY1 = itemView.findViewById(R.id.profile_y1);
             profileX2 = itemView.findViewById(R.id.profile_x2);
             profileY2 = itemView.findViewById(R.id.profile_y2);
-            viewBackground = itemView.findViewById(R.id.view_background);
+            //viewBackground = itemView.findViewById(R.id.view_background);
             viewForeground = itemView.findViewById(R.id.view_foreground);
         }
     }

@@ -31,6 +31,8 @@ package ai.loko.hk.ui.data;
 public abstract class Which {
 
     public static boolean isFallbackDone =false;
+    public static boolean itIsGoogle;
+    public static boolean isWikiDone;
     protected static boolean checkForNegative;
     public static boolean error;
 }

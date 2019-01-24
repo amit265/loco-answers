@@ -47,7 +47,7 @@
             android:padding="3dp"
             android:text="@string/a"
             android:textColor="@android:color/black"
-            android:textSize="16sp"
+            android:textSize="6sp"
             android:textStyle="bold"/>
 
         <TextView
@@ -58,7 +58,7 @@
             android:padding="3dp"
             android:text="@string/option_a"
             android:textColor="@android:color/black"
-            android:textSize="16sp"/>
+            android:textSize="6sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -73,7 +73,7 @@
             android:padding="3dp"
             android:text="@string/b"
             android:textColor="@android:color/black"
-            android:textSize="16sp"
+            android:textSize="6sp"
             android:textStyle="bold"/>
 
         <TextView
@@ -84,7 +84,7 @@
             android:padding="3dp"
             android:text="@string/option_b"
             android:textColor="@android:color/black"
-            android:textSize="16sp"/>
+            android:textSize="6sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -99,7 +99,7 @@
             android:padding="3dp"
             android:text="@string/c"
             android:textColor="@android:color/black"
-            android:textSize="16sp"
+            android:textSize="6sp"
             android:textStyle="bold"/>
 
         <TextView
@@ -110,7 +110,7 @@
             android:padding="3dp"
             android:text="@string/option_c"
             android:textColor="@android:color/black"
-            android:textSize="16sp"/>
+            android:textSize="6sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -121,19 +121,18 @@
         <com.dd.processbutton.iml.ActionProcessButton
             android:id="@+id/getanswer1"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="20dp"
             android:layout_weight="1"
             android:text="@string/get_answer"
             android:textAlignment="center"
             android:textColor="@android:color/background_light"
-            android:textSize="18sp"
+            android:textSize="8sp"
             app:pb_colorNormal="@android:color/holo_red_light"
             app:pb_colorPressed="@android:color/holo_blue_light"
             app:pb_colorProgress="@android:color/holo_red_dark"
             app:pb_textComplete="@string/get_answer"
             app:pb_textError="Error"
-            app:pb_textProgress="Finding Answer..."
-            />
+            app:pb_textProgress="Finding Answer..." />
 
         <!-- <ai.myfancy.button.iml.ActionProcessButton
             android:id="@+id/wiki1"
@@ -175,7 +174,7 @@
                     android:text="@string/simple"
                     android:textAlignment="center"
                     android:textColor="@android:color/background_light"
-                    android:textSize="16sp"/>-->
+                    android:textSize="6sp"/>-->
 
 
     </LinearLayout>
